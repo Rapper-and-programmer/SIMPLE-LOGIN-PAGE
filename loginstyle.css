@@ -1,0 +1,108 @@
+
+body{
+    padding: 0px;
+    margin:0px;
+    background: url(index.jpg) repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    overflow: hidden;
+    
+}
+.loginbox{
+    width:300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 20px;
+    padding: 100px;
+    color: white;
+    background: black;
+    opacity: .7;
+
+}
+.loginbox h1{
+float: left;
+border-bottom: 5px solid #fa3;
+position: absolute;
+top: 0px;
+font-size: 40px;
+margin-bottom: 10px;
+color: linear-gradient(90deg,#fa3 30%,#f2a 50%);
+width: 250px;
+}
+
+.text{
+width: 250px;
+border: 2px solid #fa3;
+overflow: hidden;
+padding: 2px 0;
+font-size: 20px;
+margin-bottom: 40px;
+margin-top: 30px;
+
+
+
+}
+
+.text input{
+width: 250px;
+border: none;
+background:transparent;
+color:whitesmoke;
+padding: 3px 0px;
+margin-left: 20px;
+font-size: 15px;
+font: bolder;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.btn input {
+width: 78px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 13px;
+margin:0px 0px 0px 0px;
+letter-spacing: 2px;
+border: 10px;
+float: left;
+background:transparent;
+cursor: pointer;
+border:4px solid yellowgreen;
+color:white;
+border-radius: 10px;
+
+
+}
+.text i{
+float: right;
+font-size: 19px;
+position: absolute;
+text-align:center;
+opacity:.8 ;
+
+}
+
+.btn input:hover{
+width: 170px;
+    padding: 10px 30px 10px 50px; 
+    transition: 1s; 
+    
+
+}
+
+.btn{
+margin-top: 50px;
+padding-top:20px;}
+#ar {
+
+ text-align: center;
+ font-size: 15px;
+ width: 15px;
+ position: absolute;
+ top: 69.5%; 
+ left: 47%;
+ opacity: 1;
+}
